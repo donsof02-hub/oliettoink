@@ -295,3 +295,343 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+/* Game Section */
+.game-section {
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #333333;
+}
+
+.game-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.game-score-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.game-score {
+    color: #ffffff;
+}
+
+.game-high-score {
+    color: #cccccc;
+}
+
+#gameCanvas {
+    border: 3px solid #333333;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    touch-action: none;
+}
+
+.game-controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 60px);
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.game-control-btn {
+    background-color: #1a1a1a;
+    border: 2px solid #333333;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.game-control-btn:active {
+    background-color: #2a2a2a;
+    border-color: #555555;
+    transform: scale(0.95);
+}
+
+.game-control-btn.up {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.game-control-btn.left {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.game-control-btn.right {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.game-control-btn.down {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.game-instructions {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.game-over {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1a1a1a;
+    border: 3px solid #333333;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.game-over.show {
+    display: block;
+}
+
+.game-over h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.game-over p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.btn-restart {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-restart:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.btn-restart:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .game-title {
+        font-size: 24px;
+    }
+
+    .game-controls {
+        max-width: 250px;
+    }
+
+    .game-control-btn {
+        font-size: 20px;
+    }
+}
+
+/* Cura del Tatuaggio Section */
+.cura-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    animation: fadeIn 0.3s ease;
+}
+
+.btn-back-cura {
+    background-color: #1a1a1a;
+    border: 2px solid #333333;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-back-cura:hover {
+    background-color: #2a2a2a;
+    border-color: #555555;
+    transform: translateX(-3px);
+}
+
+.cura-content {
+    color: #ffffff;
+}
+
+.cura-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cura-intro {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #cccccc;
+    text-align: center;
+}
+
+.cura-intro p {
+    margin: 0;
+}
+
+.cura-step {
+    background-color: #1a1a1a;
+    border: 2px solid #333333;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.cura-step:hover {
+    border-color: #555555;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cura-step p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #cccccc;
+    margin: 0;
+}
+
+.cura-step strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.cura-section-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, #333333, transparent);
+    margin: 40px 0;
+}
+
+.cura-warning {
+    background-color: #1a1a1a;
+    border: 2px solid #444444;
+    border-left: 4px solid #E4405F;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.cura-warning:hover {
+    border-color: #555555;
+    box-shadow: 0 4px 12px rgba(228, 64, 95, 0.1);
+}
+
+.warning-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cura-warning p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #cccccc;
+    margin: 0;
+}
+
+.cura-warning strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.cura-contact {
+    background-color: #1a1a1a;
+    border: 2px solid #333333;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cura-contact p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #cccccc;
+    margin: 0;
+}
+
+.cura-contact strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .cura-section {
+        padding: 15px;
+    }
+
+    .cura-title {
+        font-size: 24px;
+    }
+
+    .step-title,
+    .warning-title {
+        font-size: 18px;
+    }
+
+    .cura-step,
+    .cura-warning,
+    .cura-contact {
+        padding: 16px;
+    }
+
+    .cura-step p,
+    .cura-warning p,
+    .cura-contact p {
+        font-size: 14px;
+    }
+}
