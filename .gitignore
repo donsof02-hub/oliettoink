@@ -1,0 +1,19 @@
+# Originali: restano solo sul computer.
+# Sono ~185 MB e il sito non li usa mai: serve le versioni in media/,
+# generate da tools/build-media.py.
+foto portfolio non compresse/
+foto sketch pronti non compressi/
+foto flash non compresse/
+
+# Video originale da 9 MB: online va media/bg.mp4 (1,7 MB),
+# generato da tools/build-video.sh
+backgroundhomepage.MP4
+
+# Proposte di restyling precedenti, superate
+mockups/
+
+# Robaccia di sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+__pycache__/

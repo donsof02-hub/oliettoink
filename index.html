@@ -1,136 +1,232 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olietto Ink - Studio Tatuaggi</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Favicon Instagram -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23E4405F'%3E%3Cpath d='M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z'/%3E%3C/svg%3E">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<title>OLIETTO INK</title>
+<meta name="description" content="Olietto Ink — tatuatrice da Sad Sakura Tattoo, Roma. Prenota, flash, portfolio, cura del tatuaggio.">
+
+<link rel="icon" href="logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <!-- Header con foto profilo -->
-        <header class="profile-section">
-            <div class="profile-image-wrapper">
-                <img src="LOGOSOFIA.jpg" alt="Olietto Ink Logo" class="profile-image" id="profileImage">
-            </div>
-            <h1 class="profile-name">Olietto Ink</h1>
-            <p class="profile-bio">SAD SAKURA TATTOO APPRENTICE</p>
-        </header>
+<body data-state="home">
 
-        <!-- Links Container -->
-        <div class="links-container" id="mainLinks">
-            <a href="https://www.instagram.com/olioextraverginedioliva_/" target="_blank" rel="noopener noreferrer" class="link-item">
-                <span class="link-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                    </svg>
-                </span>
-                <span class="link-text">Instagram</span>
-                <span class="link-arrow">→</span>
-            </a>
-            <a href="#" class="link-item" id="curaLink">
-                <span class="link-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                    </svg>
-                </span>
-                <span class="link-text">Cura del Tatuaggio</span>
-                <span class="link-arrow">→</span>
-            </a>
-            <!-- <a href="#" class="link-item">
-                <span class="link-text">Facebook</span>
-                <span class="link-arrow">→</span>
-            </a>
-            <a href="#" class="link-item">
-                <span class="link-text">Prenota un Appuntamento</span>
-                <span class="link-arrow">→</span>
-            </a>
-            <a href="#" class="link-item">
-                <span class="link-text">Portfolio</span>
-                <span class="link-arrow">→</span>
-            </a>
-            <a href="#" class="link-item">
-                <span class="link-text">Contatti</span>
-                <span class="link-arrow">→</span>
-            </a> -->
-        </div>
+<!-- ═══════════ SFONDO ═══════════ -->
+<div class="bg" aria-hidden="true">
+  <video id="bgv" class="bg-video" poster="media/bg-poster.jpg"
+         autoplay muted loop playsinline preload="auto" disablepictureinpicture>
+    <source src="media/bg.mp4" type="video/mp4">
+  </video>
+  <div class="bg-scrim"></div>
+  <div class="bg-scan"></div>
+</div>
 
-        <!-- Cura del Tatuaggio Section -->
-        <div class="cura-section" id="curaSection" style="display: none;">
-            <button class="btn-back-cura" id="backButton">← Indietro</button>
-            
-            <div class="cura-content">
-                <h2 class="cura-title">Procedura di Cura</h2>
-                
-                <div class="cura-intro">
-                    <p>Dopo aver rimosso la pellicola protettiva (solitamente dopo 2-4 ore dall'esecuzione), seguire questa routine per circa <strong>2-3 settimane</strong>:</p>
-                </div>
+<!-- ═══════════ BOOT ═══════════ -->
+<div class="boot" id="boot" aria-hidden="true">
+  <pre class="boot-art" id="bootArt"></pre>
+  <div class="boot-log">
+    <span>OLIETTO_INK // SYS</span>
+    <span class="boot-bar"><i></i></span>
+    <span class="boot-ok">READY<b>█</b></span>
+  </div>
+</div>
 
-                <div class="cura-step">
-                    <h3 class="step-title">1. Lavaggio</h3>
-                    <p>Lavare la zona con acqua tiepida e sapone neutro (o antibatterico delicato). Utilizzare solo i polpastrelli puliti per massaggiare delicatamente e rimuovere residui.</p>
-                </div>
+<!-- ═══════════ MARCHIO ═══════════ -->
+<a class="brand" href="#" id="brand" aria-label="Torna al menu">
+  <pre class="brand-art" id="brandArt" aria-hidden="true"></pre>
+  <span class="brand-txt">OLIETTO<br>INK</span>
+</a>
 
-                <div class="cura-step">
-                    <h3 class="step-title">2. Asciugatura</h3>
-                    <p>Asciugare tamponando delicatamente la zona interessata. È possibile utilizzare un asciugamano, purché sia perfettamente pulito, oppure carta assorbente. È fondamentale <strong>non sfregare mai</strong> per non irritare la pelle.</p>
-                </div>
+<!-- ═══════════ MENU — si sposta da centro a alto-sinistra ═══════════ -->
+<nav class="menu" id="menu" aria-label="Menu principale">
+  <a class="mi" href="#prenota"   data-sec="prenota"><i class="mi-n">01</i><span class="mi-t" data-txt="PRENOTA">PRENOTA</span></a>
+  <a class="mi" href="#flash"     data-sec="flash"><i class="mi-n">02</i><span class="mi-t" data-txt="FLASH">FLASH</span></a>
+  <a class="mi" href="#portfolio" data-sec="portfolio"><i class="mi-n">03</i><span class="mi-t" data-txt="PORTFOLIO">PORTFOLIO</span></a>
+  <a class="mi" href="#cura"      data-sec="cura"><i class="mi-n">04</i><span class="mi-t" data-txt="CURA">CURA</span></a>
+  <a class="mi" href="#contatti"  data-sec="contatti"><i class="mi-n">05</i><span class="mi-t" data-txt="CONTATTI">CONTATTI</span></a>
+</nav>
 
-                <div class="cura-step">
-                    <h3 class="step-title">3. Idratazione</h3>
-                    <p>Una volta che la pelle è asciutta, applicare un velo sottile di crema specifica (es. Acquafor Ecurin oppure Omniskin). La quantità deve essere <strong>minima</strong> per permettere alla pelle di respirare.</p>
-                </div>
+<!-- ═══════════ CONTENUTO ═══════════ -->
+<main class="stage" id="stage">
 
-                <div class="cura-step">
-                    <h3 class="step-title">4. Frequenza</h3>
-                    <p>Ripetere l'operazione <strong>2 o 3 volte al giorno</strong>.</p>
-                </div>
+  <!-- ───── 01 PRENOTA ───── -->
+  <section class="panel" id="sec-prenota" hidden>
+    <header class="ph">
+      <p class="kick"><b>01</b> <span class="rule"></span> SESSIONE</p>
+      <h1 class="big">PRENOTA</h1>
+    </header>
 
-                <div class="cura-section-divider"></div>
+    <p class="lead">Si parte sempre da un messaggio. Scrivimi su Instagram e
+      costruiamo il pezzo insieme, prima di fissare la data.</p>
 
-                <h2 class="cura-title">Cosa Evitare</h2>
-                <p class="cura-intro">Per garantire una corretta guarigione, è necessario evitare le seguenti situazioni:</p>
+    <ol class="steps frame">
+      <li><b>Scrivi</b><p>Un messaggio diretto su Instagram con l'idea. Anche vaga: ci lavoriamo sopra.</p></li>
+      <li><b>Definiamo</b><p>Soggetto, zona del corpo, misura e stile. Preparo il disegno su misura.</p></li>
+      <li><b>Fissiamo</b><p>Data, durata e tutto il resto. Ti mando le istruzioni per presentarti pronto.</p></li>
+    </ol>
 
-                <div class="cura-warning">
-                    <h3 class="warning-title">⚠️ Grattare o staccare crosticine</h3>
-                    <p>Durante la guarigione il prurito e la desquamazione sono normali, ma <strong>non bisogna mai grattare</strong> la zona o staccare le pellicine per non compromettere il colore.</p>
-                </div>
-
-                <div class="cura-warning">
-                    <h3 class="warning-title">☀️ Esposizione solare e lampade</h3>
-                    <p>Evitare raggi UV diretti finché la pelle non è guarita. Successivamente, proteggere sempre con <strong>protezione solare 50+</strong>.</p>
-                </div>
-
-                <div class="cura-warning">
-                    <h3 class="warning-title">💧 Immersione in acqua</h3>
-                    <p>Per le prime <strong>3 settimane</strong>, evitare bagni in piscina, mare, vasca o sauna. L'acqua ferma e gli agenti chimici (come il cloro) possono causare infezioni. <strong>La doccia è consentita</strong>.</p>
-                </div>
-
-                <div class="cura-warning">
-                    <h3 class="warning-title">👕 Abbigliamento sintetico o stretto</h3>
-                    <p>Evitare indumenti che sfreghino eccessivamente sulla zona o tessuti sintetici che non lasciano traspirare la pelle; <strong>preferire il cotone</strong>.</p>
-                </div>
-
-                <div class="cura-contact">
-                    <p><strong>Per ogni dubbio</strong>, soprattutto in caso di dolore (normale solo nei primi giorni), infezione o altro, <strong>contatta il tuo tatuatore</strong>.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; Olietto Ink. Tutti i diritti riservati.</p>
-        </footer>
+    <div class="frame box">
+      <p class="kick"><b>&gt;</b> COSA SCRIVERE NEL MESSAGGIO</p>
+      <ul class="tick">
+        <li>soggetto o idea</li>
+        <li>zona del corpo</li>
+        <li>misura indicativa in centimetri</li>
+        <li>immagini di riferimento, se ne hai</li>
+        <li>le tue disponibilità</li>
+      </ul>
     </div>
 
-    <script src="script.js"></script>
+    <div class="todo">
+      <p class="todo-tag">DA COMPILARE</p>
+      <p>Queste cose le so solo io &mdash; dimmele e le scrivo qui: acconto richiesto,
+        tariffa minima o oraria, dove ricevi, giorni in cui lavori, età minima,
+        politica su rinvii e disdette.</p>
+    </div>
+
+    <a class="cta" href="https://www.instagram.com/olioextraverginedioliva_/" target="_blank" rel="noopener noreferrer">
+      SCRIVIMI SU INSTAGRAM <b>↗</b>
+    </a>
+  </section>
+
+  <!-- ───── 02 FLASH ───── -->
+  <section class="panel" id="sec-flash" hidden>
+    <header class="ph">
+      <p class="kick"><b>02</b> <span class="rule"></span> DISPONIBILI</p>
+      <h1 class="big">FLASH</h1>
+    </header>
+
+    <p class="lead">Disegni già pronti, da prendere così come sono.
+      Ogni flash si tatua <b>una volta sola</b>: quando è andato, è andato.</p>
+
+    <div class="grid" id="flashGrid" data-empty="In aggiornamento"></div>
+
+    <a class="cta" href="https://www.instagram.com/olioextraverginedioliva_/" target="_blank" rel="noopener noreferrer">
+      CHIEDI DISPONIBILITÀ <b>↗</b>
+    </a>
+  </section>
+
+  <!-- ───── 03 PORTFOLIO ───── -->
+  <section class="panel" id="sec-portfolio" hidden>
+    <header class="ph">
+      <p class="kick"><b>03</b> <span class="rule"></span> LAVORI</p>
+      <h1 class="big">PORTFOLIO</h1>
+    </header>
+
+    <p class="lead">Ogni anteprima è una sessione. Aprila per vedere tutte le foto di quel giorno.</p>
+
+    <div class="grid" id="pfGrid" data-empty="In aggiornamento"></div>
+  </section>
+
+  <!-- ───── 04 CURA DEL TATUAGGIO ───── -->
+  <section class="panel" id="sec-cura" hidden>
+    <header class="ph">
+      <p class="kick"><b>04</b> <span class="rule"></span> POST&ndash;TATUAGGIO</p>
+      <h1 class="big">CURA</h1>
+    </header>
+
+    <p class="lead">Dopo aver rimosso la pellicola protettiva (solitamente dopo 2-4 ore
+      dall'esecuzione), seguire questa routine per circa <b>2-3 settimane</b>:</p>
+
+    <ol class="steps frame">
+      <li><b>Lavaggio</b>
+        <p>Lavare la zona con acqua tiepida e sapone neutro (o antibatterico delicato).
+           Utilizzare solo i polpastrelli puliti per massaggiare delicatamente e rimuovere residui.</p></li>
+      <li><b>Asciugatura</b>
+        <p>Asciugare tamponando delicatamente la zona interessata. È possibile utilizzare un
+           asciugamano, purché sia perfettamente pulito, oppure carta assorbente. È fondamentale
+           <b>non sfregare mai</b> per non irritare la pelle.</p></li>
+      <li><b>Idratazione</b>
+        <p>Una volta che la pelle è asciutta, applicare un velo sottile di crema specifica
+           (es. Acquafor Ecurin oppure Omniskin). La quantità deve essere <b>minima</b> per
+           permettere alla pelle di respirare.</p></li>
+      <li><b>Frequenza</b>
+        <p>Ripetere l'operazione <b>2 o 3 volte al giorno</b>.</p></li>
+    </ol>
+
+    <p class="kick kick--block"><b>!</b> <span class="rule"></span> COSA EVITARE</p>
+    <p class="lead">Per garantire una corretta guarigione, è necessario evitare le seguenti situazioni:</p>
+
+    <ul class="warns">
+      <li class="frame"><b>Grattare o staccare crosticine</b>
+        <p>Durante la guarigione il prurito e la desquamazione sono normali, ma
+           <b>non bisogna mai grattare</b> la zona o staccare le pellicine per non
+           compromettere il colore.</p></li>
+      <li class="frame"><b>Esposizione solare e lampade</b>
+        <p>Evitare raggi UV diretti finché la pelle non è guarita. Successivamente,
+           proteggere sempre con <b>protezione solare 50+</b>.</p></li>
+      <li class="frame"><b>Immersione in acqua</b>
+        <p>Per le prime <b>3 settimane</b>, evitare bagni in piscina, mare, vasca o sauna.
+           L'acqua ferma e gli agenti chimici (come il cloro) possono causare infezioni.
+           <b>La doccia è consentita</b>.</p></li>
+      <li class="frame"><b>Abbigliamento sintetico o stretto</b>
+        <p>Evitare indumenti che sfreghino eccessivamente sulla zona o tessuti sintetici
+           che non lasciano traspirare la pelle; <b>preferire il cotone</b>.</p></li>
+    </ul>
+
+    <div class="frame box box--alert">
+      <p><b>Per ogni dubbio</b>, soprattutto in caso di dolore (normale solo nei primi giorni),
+         infezione o altro, <b>contatta il tuo tatuatore</b>.</p>
+    </div>
+
+    <a class="cta" href="https://www.instagram.com/olioextraverginedioliva_/" target="_blank" rel="noopener noreferrer">
+      SCRIVIMI SU INSTAGRAM <b>↗</b>
+    </a>
+  </section>
+
+  <!-- ───── 05 CONTATTI ───── -->
+  <section class="panel" id="sec-contatti" hidden>
+    <header class="ph">
+      <p class="kick"><b>05</b> <span class="rule"></span> DOVE TROVARMI</p>
+      <h1 class="big">CONTATTI</h1>
+    </header>
+
+    <a class="row" href="https://www.instagram.com/olioextraverginedioliva_/" target="_blank" rel="noopener noreferrer">
+      <i class="row-k">INSTAGRAM</i>
+      <b class="row-v">@olioextraverginedioliva_</b>
+      <span class="row-go">↗</span>
+    </a>
+
+    <a class="row" href="https://www.google.com/maps/search/?api=1&amp;query=Sad+Sakura+Tattoo%2C+Via+Tripoli+10%2C+Roma" target="_blank" rel="noopener noreferrer">
+      <i class="row-k">STUDIO</i>
+      <b class="row-v">Sad Sakura Tattoo</b>
+      <span class="row-go">↗</span>
+    </a>
+
+    <div class="row row--static">
+      <i class="row-k">DOVE</i>
+      <b class="row-v">Via Tripoli 10 &mdash; Roma</b>
+      <span class="row-sub">Metro B &middot; Libia</span>
+    </div>
+
+    <div class="row row--static">
+      <i class="row-k">ORARI</i>
+      <b class="row-v">Lunedì &ndash; Sabato</b>
+      <span class="row-sub">11:00 &ndash; 18:00</span>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════ TICKER ═══════════ -->
+<div class="ticker" aria-hidden="true"><div class="ticker-in" id="tickerIn"></div></div>
+
+<!-- ═══════════ CAROSELLO ═══════════ -->
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Galleria">
+  <button class="lb-x" id="lbX" type="button" aria-label="Chiudi">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" type="button" aria-label="Precedente">‹</button>
+  <button class="lb-nav lb-next" id="lbNext" type="button" aria-label="Successiva">›</button>
+  <figure class="lb-fig"><img id="lbImg" alt=""></figure>
+  <div class="lb-bar">
+    <span class="lb-meta" id="lbMeta"></span>
+    <span class="lb-dots" id="lbDots"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-

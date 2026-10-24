@@ -1,0 +1,665 @@
+{
+ "generato": "2026-10-24T23:45:57",
+ "sessioni": [
+  {
+   "id": "2026-10-13",
+   "data": "2026-10-13",
+   "etichetta": "13 ottobre 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5989.jpg",
+     "web": "media/portfolio/web/IMG_5989.jpg",
+     "w": 4000,
+     "h": 6000
+    }
+   ]
+  },
+  {
+   "id": "2026-09-17",
+   "data": "2026-09-17",
+   "etichetta": "17 settembre 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5058.jpg",
+     "web": "media/portfolio/web/IMG_5058.jpg",
+     "w": 3024,
+     "h": 4032
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_5057.jpg",
+     "web": "media/portfolio/web/IMG_5057.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-07-30",
+   "data": "2026-07-30",
+   "etichetta": "30 luglio 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_3742.jpg",
+     "web": "media/portfolio/web/IMG_3742.jpg",
+     "w": 3024,
+     "h": 4032
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_3740.jpg",
+     "web": "media/portfolio/web/IMG_3740.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-07-18",
+   "data": "2026-07-18",
+   "etichetta": "18 luglio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_2535.jpg",
+     "web": "media/portfolio/web/IMG_2535.jpg",
+     "w": 2730,
+     "h": 4096
+    }
+   ]
+  },
+  {
+   "id": "2026-07-17",
+   "data": "2026-07-17",
+   "etichetta": "17 luglio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_2721.jpg",
+     "web": "media/portfolio/web/IMG_2721.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-06-23",
+   "data": "2026-06-23",
+   "etichetta": "23 giugno 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_2533.jpg",
+     "web": "media/portfolio/web/IMG_2533.jpg",
+     "w": 4000,
+     "h": 6000
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_2537.jpg",
+     "web": "media/portfolio/web/IMG_2537.jpg",
+     "w": 4000,
+     "h": 6000
+    }
+   ]
+  },
+  {
+   "id": "2026-06-22",
+   "data": "2026-06-22",
+   "etichetta": "22 giugno 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1664.jpg",
+     "web": "media/portfolio/web/IMG_1664.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-06-13",
+   "data": "2026-06-13",
+   "etichetta": "13 giugno 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1598.jpg",
+     "web": "media/portfolio/web/IMG_1598.jpg",
+     "w": 3420,
+     "h": 4558
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_1599.jpg",
+     "web": "media/portfolio/web/IMG_1599.jpg",
+     "w": 3632,
+     "h": 4842
+    }
+   ]
+  },
+  {
+   "id": "2026-06-05",
+   "data": "2026-06-05",
+   "etichetta": "5 giugno 2026",
+   "quante": 3,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1054.jpg",
+     "web": "media/portfolio/web/IMG_1054.jpg",
+     "w": 4000,
+     "h": 6000
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_1058.jpg",
+     "web": "media/portfolio/web/IMG_1058.jpg",
+     "w": 4000,
+     "h": 6000
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_1053.jpg",
+     "web": "media/portfolio/web/IMG_1053.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-05-25",
+   "data": "2026-05-25",
+   "etichetta": "25 maggio 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_0458.jpg",
+     "web": "media/portfolio/web/IMG_0458.jpg",
+     "w": 3024,
+     "h": 4032
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_0538.jpg",
+     "web": "media/portfolio/web/IMG_0538.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-05-14",
+   "data": "2026-05-14",
+   "etichetta": "14 maggio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_9901.jpg",
+     "web": "media/portfolio/web/IMG_9901.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-04-17",
+   "data": "2026-04-17",
+   "etichetta": "17 aprile 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1663.jpg",
+     "web": "media/portfolio/web/IMG_1663.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-04-03",
+   "data": "2026-04-03",
+   "etichetta": "3 aprile 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_8484.jpg",
+     "web": "media/portfolio/web/IMG_8484.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-03-28",
+   "data": "2026-03-28",
+   "etichetta": "28 marzo 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_8012.jpg",
+     "web": "media/portfolio/web/IMG_8012.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-03-24",
+   "data": "2026-03-24",
+   "etichetta": "24 marzo 2026",
+   "quante": 3,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_7853.jpg",
+     "web": "media/portfolio/web/IMG_7853.jpg",
+     "w": 4284,
+     "h": 5712
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_7900.jpg",
+     "web": "media/portfolio/web/IMG_7900.jpg",
+     "w": 4284,
+     "h": 5712
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_7851.jpg",
+     "web": "media/portfolio/web/IMG_7851.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-03-07",
+   "data": "2026-03-07",
+   "etichetta": "7 marzo 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1662.jpg",
+     "web": "media/portfolio/web/IMG_1662.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-03-04",
+   "data": "2026-03-04",
+   "etichetta": "4 marzo 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_7123.jpg",
+     "web": "media/portfolio/web/IMG_7123.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-02-16",
+   "data": "2026-02-16",
+   "etichetta": "16 febbraio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_6428.jpg",
+     "web": "media/portfolio/web/IMG_6428.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-02-03",
+   "data": "2026-02-03",
+   "etichetta": "3 febbraio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5922.jpg",
+     "web": "media/portfolio/web/IMG_5922.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-01-23",
+   "data": "2026-01-23",
+   "etichetta": "23 gennaio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_6002.jpg",
+     "web": "media/portfolio/web/IMG_6002.jpg",
+     "w": 3024,
+     "h": 3780
+    }
+   ]
+  },
+  {
+   "id": "2026-01-22",
+   "data": "2026-01-22",
+   "etichetta": "22 gennaio 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5453.jpg",
+     "web": "media/portfolio/web/IMG_5453.jpg",
+     "w": 4284,
+     "h": 5712
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_5456.jpg",
+     "web": "media/portfolio/web/IMG_5456.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2026-01-20",
+   "data": "2026-01-20",
+   "etichetta": "20 gennaio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5323.jpg",
+     "web": "media/portfolio/web/IMG_5323.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-01-15",
+   "data": "2026-01-15",
+   "etichetta": "15 gennaio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5756.jpg",
+     "web": "media/portfolio/web/IMG_5756.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-01-14",
+   "data": "2026-01-14",
+   "etichetta": "14 gennaio 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5098.jpg",
+     "web": "media/portfolio/web/IMG_5098.jpg",
+     "w": 4284,
+     "h": 5712
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_5099.jpg",
+     "web": "media/portfolio/web/IMG_5099.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-01-13",
+   "data": "2026-01-13",
+   "etichetta": "13 gennaio 2026",
+   "quante": 2,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5118.jpg",
+     "web": "media/portfolio/web/IMG_5118.jpg",
+     "w": 4284,
+     "h": 5712
+    },
+    {
+     "thumb": "media/portfolio/thumb/IMG_5051.jpg",
+     "web": "media/portfolio/web/IMG_5051.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2026-01-10",
+   "data": "2026-01-10",
+   "etichetta": "10 gennaio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4977.jpg",
+     "web": "media/portfolio/web/IMG_4977.jpg",
+     "w": 2835,
+     "h": 3544
+    }
+   ]
+  },
+  {
+   "id": "2026-01-02",
+   "data": "2026-01-02",
+   "etichetta": "2 gennaio 2026",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4619.jpg",
+     "web": "media/portfolio/web/IMG_4619.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2025-12-27",
+   "data": "2025-12-27",
+   "etichetta": "27 dicembre 2025",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4524.jpg",
+     "web": "media/portfolio/web/IMG_4524.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2025-12-19",
+   "data": "2025-12-19",
+   "etichetta": "19 dicembre 2025",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4294.jpg",
+     "web": "media/portfolio/web/IMG_4294.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "2025-12-02",
+   "data": "2025-12-02",
+   "etichetta": "2 dicembre 2025",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_3838.jpg",
+     "web": "media/portfolio/web/IMG_3838.jpg",
+     "w": 4284,
+     "h": 5712
+    }
+   ]
+  },
+  {
+   "id": "2025-11-27",
+   "data": "2025-11-27",
+   "etichetta": "27 novembre 2025",
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_3649.jpg",
+     "web": "media/portfolio/web/IMG_3649.jpg",
+     "w": 3024,
+     "h": 4032
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1432.jpg",
+     "web": "media/portfolio/web/IMG_1432.jpg",
+     "w": 2337,
+     "h": 3506
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1433.jpg",
+     "web": "media/portfolio/web/IMG_1433.jpg",
+     "w": 2337,
+     "h": 3506
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1434.jpg",
+     "web": "media/portfolio/web/IMG_1434.jpg",
+     "w": 2337,
+     "h": 3506
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_1436.jpg",
+     "web": "media/portfolio/web/IMG_1436.jpg",
+     "w": 2335,
+     "h": 3502
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_2649.jpg",
+     "web": "media/portfolio/web/IMG_2649.jpg",
+     "w": 2315,
+     "h": 3464
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_2991.jpg",
+     "web": "media/portfolio/web/IMG_2991.jpg",
+     "w": 1023,
+     "h": 1537
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4603.jpg",
+     "web": "media/portfolio/web/IMG_4603.jpg",
+     "w": 2480,
+     "h": 3100
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4605.jpg",
+     "web": "media/portfolio/web/IMG_4605.jpg",
+     "w": 2480,
+     "h": 3100
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4606.jpg",
+     "web": "media/portfolio/web/IMG_4606.jpg",
+     "w": 2480,
+     "h": 3100
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_4607.jpg",
+     "web": "media/portfolio/web/IMG_4607.jpg",
+     "w": 2480,
+     "h": 3100
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "data": null,
+   "etichetta": null,
+   "quante": 1,
+   "foto": [
+    {
+     "thumb": "media/portfolio/thumb/IMG_5798.jpg",
+     "web": "media/portfolio/web/IMG_5798.jpg",
+     "w": 1946,
+     "h": 3273
+    }
+   ]
+  }
+ ]
+}
