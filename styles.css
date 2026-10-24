@@ -118,6 +118,7 @@ body[data-state="section"] .bg-scrim { background: rgba(0, 0, 0, .9); }
   font-family: var(--display); font-size: 15px; line-height: .88;
   letter-spacing: .035em; text-align: right; transform: scaleY(1.14);
 }
+.brand-txt span { display: block; }       /* impilate nella home */
 @media (hover: hover) { .brand:hover::before { transform: rotate(-90deg); } }
 
 /* ══════════════════ MENU ══════════════════ */
@@ -209,8 +210,13 @@ body[data-state="section"] .mi-t {
   font-size: clamp(12px, 3.5vw, 17px); line-height: 1.1;
   letter-spacing: .015em; transform: scaleY(1.1);
 }
-/* in barra il marchio si riduce al glifo, per non rubare spazio alle voci */
-body[data-state="section"] .brand { top: 11px; right: var(--pad); }
+/* In barra il marchio va centrato sull'altezza vera della barra (--bar-h,
+   misurata dal JS): con un valore fisso sporgeva sotto il bordo. */
+body[data-state="section"] .brand {
+  top: 0; right: var(--pad);
+  height: var(--bar-h, 46px); padding: 0; align-items: center;
+}
+/* sotto i 900px resta solo il glifo: le cinque voci hanno bisogno dello spazio */
 body[data-state="section"] .brand-txt { display: none; }
 
 /* ══════════════════ CONTENUTO ══════════════════ */
@@ -266,14 +272,9 @@ body[data-state="home"] .stage { display: none; }
 .box--alert p { color: var(--bone); }
 .box .kick { margin-bottom: 13px; }
 
-/* cura: le parole chiave si evidenziano in verde invece di diventare enormi */
-#sec-cura p { line-height: 1.95; }
-#sec-cura p b {
-  background: var(--acid); color: var(--void);
-  padding: .1em .32em; font-weight: 700;
-  -webkit-box-decoration-break: clone; box-decoration-break: clone;
-}
-#sec-cura .box--alert p b { background: var(--void); color: var(--acid); }
+/* cura: le parole chiave sono semplicemente verdi */
+#sec-cura p { line-height: 1.9; }
+#sec-cura p b { color: var(--acid); font-weight: 700; }
 
 /* elenchi numerati */
 .steps { list-style: none; border: 1px solid var(--line); padding: 8px 20px; margin-bottom: 22px; background: rgba(0,0,0,.5); counter-reset: s; }
@@ -422,8 +423,9 @@ body[data-state="section"] .wm { display: block; }
 /* ══════════════════ DA DESKTOP ══════════════════ */
 
 @media (min-width: 900px) {
-  body[data-state="section"] .brand { top: 13px; }
-  body[data-state="section"] .brand-txt { display: block; font-size: 15px; }
+  /* in barra sta su una riga sola: impilato non entrerebbe in altezza */
+  body[data-state="section"] .brand-txt { display: block; font-size: 13px; line-height: 1; }
+  body[data-state="section"] .brand-txt span { display: inline; }
   .grid { column-gap: 12px; }
   .cell { margin-bottom: 12px; }
   body[data-state="section"] .mi-t { font-size: 18px; }

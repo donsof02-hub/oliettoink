@@ -68,8 +68,9 @@
   function misuraDock() {
     if (body.dataset.state !== 'section') return;
     var r = menu.getBoundingClientRect();
-    var h = Math.ceil(r.bottom + 26);
-    document.documentElement.style.setProperty('--dock-h', h + 'px');
+    document.documentElement.style.setProperty('--dock-h', Math.ceil(r.bottom + 26) + 'px');
+    // altezza vera della barra: serve al marchio per centrarsi dentro
+    document.documentElement.style.setProperty('--bar-h', Math.round(r.height) + 'px');
   }
 
   /* ───────────────── MENU: centro → alto a sinistra ─────────────────
