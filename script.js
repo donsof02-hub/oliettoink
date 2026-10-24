@@ -56,8 +56,7 @@
   /* ───────────────────────── TICKER ───────────────────────── */
 
   var voci_ticker = ['OLIETTO INK', 'SAD SAKURA TATTOO', 'ROMA — VIA TRIPOLI 10',
-                     'LUN–SAB 11–18', 'CYBERTRIBAL ∕ NEOSIGIL',
-                     'DM PER PRENOTARE'];
+                     'LUN–SAB 11–18', 'DM PER PRENOTARE'];
   var tick = $('#tickerIn');
   if (tick) {
     var riga = voci_ticker.map(function (t) { return '<span>' + t + ' ◢</span>'; }).join('');
