@@ -179,13 +179,17 @@
 
   var gallerie = {};     // nome -> [ {web,w,h}, ... ] per il carosello
 
-  function cella(src, descrizione) {
+  function cella(foto, descrizione) {
     var a = document.createElement('button');
     a.type = 'button';
     a.className = 'cell';
     a.setAttribute('aria-label', descrizione || 'Apri la galleria');
     var img = document.createElement('img');
-    img.src = src; img.alt = ''; img.loading = 'lazy'; img.decoding = 'async';
+    img.src = foto.thumb; img.alt = '';
+    img.loading = 'lazy'; img.decoding = 'async';
+    // proporzioni dichiarate: il browser riserva lo spazio giusto e la
+    // pagina non salta mentre le foto arrivano una a una
+    if (foto.w && foto.h) { img.width = foto.w; img.height = foto.h; }
     a.appendChild(img);
     return a;
   }
@@ -197,7 +201,7 @@
       var griglia = $('#pfGrid');
       d.sessioni.forEach(function (s, i) {
         gallerie['pf' + i] = s.foto;
-        var c = cella(s.foto[0].thumb, s.quante > 1
+        var c = cella(s.foto[0], s.quante > 1
                       ? 'Sessione, ' + s.quante + ' foto' : 'Apri la foto');
         c.addEventListener('click', function () { apri('pf' + i, 0); });
         griglia.appendChild(c);
@@ -212,7 +216,7 @@
       var griglia = $('#flashGrid');
       gallerie.flash = d.disegni;
       d.disegni.forEach(function (f, i) {
-        var c = cella(f.thumb, 'Flash ' + (i + 1));
+        var c = cella(f, 'Flash ' + (i + 1));
         c.addEventListener('click', function () { apri('flash', i); });
         griglia.appendChild(c);
       });
